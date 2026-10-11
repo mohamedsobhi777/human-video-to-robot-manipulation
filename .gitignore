@@ -1,0 +1,8 @@
+.venv/
+.deps/
+__pycache__/
+logs/
+artifacts/
+.pytest_cache/
+wandb/
+data/raw/

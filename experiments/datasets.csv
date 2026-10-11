@@ -1,0 +1,4 @@
+run_id,split,seeds,controller,action_noise,episodes,transitions,route_success,git_commit,git_dirty,evidence_dir,wandb_url
+20261008T185438Z-857609,train,"[0, 400]",route,0.003,2400,2405995,0.9408333333333333,22344d5f934ff8dab7ea048a366445f8300f829a,True,artifacts/runs/20261008T185438Z-857609,https://wandb.ai/mohamedsobhi777/humanoid-watch-predict-recover/runs/20261008T185438Z-857609
+20261008T191400Z-3f906d,train,"[400, 800]",route,0.008,2400,2612675,0.90875,22344d5f934ff8dab7ea048a366445f8300f829a,True,artifacts/runs/20261008T191400Z-3f906d,https://wandb.ai/mohamedsobhi777/humanoid-watch-predict-recover/runs/20261008T191400Z-3f906d
+20261008T193423Z-63145d,val,"[0, 100]",route,0.005,600,607222,0.9266666666666666,22344d5f934ff8dab7ea048a366445f8300f829a,True,artifacts/runs/20261008T193423Z-63145d,https://wandb.ai/mohamedsobhi777/humanoid-watch-predict-recover/runs/20261008T193423Z-63145d

@@ -1,0 +1,76 @@
+[
+ {
+  "id": "dev--0001-left-none",
+  "split": "dev",
+  "seed": -1,
+  "route": "left",
+  "task": {
+   "start": [
+    0.5,
+    -0.2
+   ],
+   "goal": [
+    0.5,
+    0.2
+   ],
+   "obstacle": [
+    0.5,
+    0.0
+   ],
+   "obstacle_size": [
+    0.1,
+    0.12,
+    0.07
+   ],
+   "cube_size": 0.04,
+   "cube_mass": 0.08,
+   "friction": 0.45,
+   "goal_tolerance": 0.025,
+   "waypoint_tolerance": 0.025,
+   "settle_steps": 20,
+   "max_control_steps": 1800,
+   "control_dt": 0.025,
+   "route_offset": 0.17
+  },
+  "disturbance": {
+   "kind": "none"
+  }
+ },
+ {
+  "id": "dev--0001-right-none",
+  "split": "dev",
+  "seed": -1,
+  "route": "right",
+  "task": {
+   "start": [
+    0.5,
+    -0.2
+   ],
+   "goal": [
+    0.5,
+    0.2
+   ],
+   "obstacle": [
+    0.5,
+    0.0
+   ],
+   "obstacle_size": [
+    0.1,
+    0.12,
+    0.07
+   ],
+   "cube_size": 0.04,
+   "cube_mass": 0.08,
+   "friction": 0.45,
+   "goal_tolerance": 0.025,
+   "waypoint_tolerance": 0.025,
+   "settle_steps": 20,
+   "max_control_steps": 1800,
+   "control_dt": 0.025,
+   "route_offset": 0.17
+  },
+  "disturbance": {
+   "kind": "none"
+  }
+ }
+]

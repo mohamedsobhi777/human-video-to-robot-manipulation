@@ -1,0 +1,19 @@
+{
+  "test_episodes": 1536,
+  "test_success_rate": 0.4609375,
+  "final_fruit_err_cm": {
+    "world_model": 9.4029541015625,
+    "plan_follow_reference": 2.185900926589966
+  },
+  "success_prediction": {
+    "accuracy": 0.6848958333333334,
+    "auc": 0.7671129124703185,
+    "majority_baseline": 0.5390625,
+    "plan_follow_reference_accuracy": 0.9036458333333334
+  },
+  "trust": {
+    "accuracy_most_confident_80pct": 0.6818551668022783,
+    "accuracy_least_confident_20pct": 0.6970684039087948,
+    "spread_error_spearman": 0.348082388621389
+  }
+}

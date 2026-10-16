@@ -1,0 +1,23 @@
+{
+  "success": 1.0,
+  "checkpoints": [
+    {
+      "epoch": 0.25,
+      "success": 0.0
+    },
+    {
+      "epoch": 1,
+      "success": 0.69921875
+    },
+    {
+      "epoch": 3,
+      "success": 0.99609375
+    },
+    {
+      "epoch": 20,
+      "success": 1.0
+    }
+  ],
+  "episodes": 256,
+  "train_episodes": 4096
+}

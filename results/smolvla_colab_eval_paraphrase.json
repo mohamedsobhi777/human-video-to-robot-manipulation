@@ -1,0 +1,1068 @@
+{
+  "summary": {
+    "ckpt": "data/colab/outputs/smolvla_fruitbowl/checkpoints/last/pretrained_model",
+    "n_action_steps": 50,
+    "paraphrase": true,
+    "episodes": 150,
+    "success": 0.04666666666666667,
+    "per_fruit": {
+      "persimmon": 0.0,
+      "pear": 0.0425531914893617,
+      "mandarin": 0.08333333333333333
+    },
+    "wrong_fruit_in_bowl": 0.02,
+    "layouts_file": null
+  },
+  "episodes": [
+    {
+      "target": "mandarin",
+      "instruction": "only the mandarin should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "only the pear should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "grab the pear and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "could you drop the persimmon into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "I'd like the pear in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": true
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "grab the pear and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "only the mandarin should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "only the pear should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "could you drop the persimmon into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "I'd like the pear in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "grab the pear and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "I'd like the pear in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "I'd like the persimmon in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": true,
+      "ever": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": true,
+      "ever": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": true,
+      "ever": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "I'd like the persimmon in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": true,
+      "ever": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "only the mandarin should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "only the pear should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "only the pear should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "only the mandarin should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "only the persimmon should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "I'd like the persimmon in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "could you drop the pear into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "I'd like the pear in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "only the persimmon should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "only the pear should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "only the persimmon should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "grab the pear and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "grab the pear and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "could you drop the persimmon into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "only the pear should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": true
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "I'd like the persimmon in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "grab the pear and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "bowl, mandarin: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "I'd like the persimmon in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "could you drop the persimmon into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": true
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "only the persimmon should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "I'd like the pear in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "could you drop the persimmon into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "I'd like the mandarin in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": true,
+      "ever": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "could you drop the persimmon into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": true,
+      "ever": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "I'd like the pear in the bowl please",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "only the mandarin should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "only the mandarin should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "only the pear should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "only the mandarin should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "could you drop the persimmon into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "grab the pear and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "only the persimmon should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "only the pear should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "grab the persimmon and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "only the pear should end up in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "instruction": "bowl, persimmon: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "grab the mandarin and put it in the bowl",
+      "success": true,
+      "ever": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "instruction": "could you drop the mandarin into the bowl",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "instruction": "bowl, pear: go",
+      "success": false,
+      "ever": false,
+      "others_in_bowl": false
+    }
+  ]
+}

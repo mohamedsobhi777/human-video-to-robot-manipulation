@@ -1,0 +1,12 @@
+mani_skill==3.0.1
+sapien==3.0.3
+torch==2.5.0
+torchvision==0.20.0
+numpy==2.2.6
+gymnasium==1.4.0
+opencv-contrib-python==5.0.0.93
+imageio==2.38.0
+imageio-ffmpeg==0.6.0
+scipy==1.15.3
+matplotlib==3.10.9
+pandas==2.3.3

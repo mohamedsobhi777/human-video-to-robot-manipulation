@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fruitbowl"
+version = "0.1.0"
+description = "Human-video keyframes for language-conditioned simulated manipulation"
+requires-python = ">=3.10,<3.12"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+packages = ["fruitbowl"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

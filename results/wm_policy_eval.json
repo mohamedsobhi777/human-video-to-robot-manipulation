@@ -1,0 +1,108 @@
+{
+  "summary": {
+    "policies": 12,
+    "spearman": 0.5104895104895105,
+    "pearson": 0.37352790273297076,
+    "mean_abs_error": 0.2619140633614734,
+    "best_by_sim": "expert/epoch20",
+    "best_by_wm": "styled/epoch1"
+  },
+  "rows": [
+    {
+      "policy": "expert/epoch0.25",
+      "data": "expert",
+      "epoch": 0.25,
+      "sim_success": 0.0,
+      "wm_success": 0.0054687499068677425,
+      "episode_agreement": 1.0
+    },
+    {
+      "policy": "expert/epoch1",
+      "data": "expert",
+      "epoch": 1,
+      "sim_success": 0.69921875,
+      "wm_success": 0.44843751192092896,
+      "episode_agreement": 0.4609375
+    },
+    {
+      "policy": "expert/epoch20",
+      "data": "expert",
+      "epoch": 20,
+      "sim_success": 1.0,
+      "wm_success": 0.08984375,
+      "episode_agreement": 0.00390625
+    },
+    {
+      "policy": "expert/epoch3",
+      "data": "expert",
+      "epoch": 3,
+      "sim_success": 0.99609375,
+      "wm_success": 0.3812499940395355,
+      "episode_agreement": 0.28515625
+    },
+    {
+      "policy": "raw/epoch0.25",
+      "data": "raw",
+      "epoch": 0.25,
+      "sim_success": 0.16015625,
+      "wm_success": 0.3648437559604645,
+      "episode_agreement": 0.69921875
+    },
+    {
+      "policy": "raw/epoch1",
+      "data": "raw",
+      "epoch": 1,
+      "sim_success": 0.37109375,
+      "wm_success": 0.2874999940395355,
+      "episode_agreement": 0.578125
+    },
+    {
+      "policy": "raw/epoch20",
+      "data": "raw",
+      "epoch": 20,
+      "sim_success": 0.2421875,
+      "wm_success": 0.04062500223517418,
+      "episode_agreement": 0.7578125
+    },
+    {
+      "policy": "raw/epoch3",
+      "data": "raw",
+      "epoch": 3,
+      "sim_success": 0.2890625,
+      "wm_success": 0.10703124850988388,
+      "episode_agreement": 0.70703125
+    },
+    {
+      "policy": "styled/epoch0.25",
+      "data": "styled",
+      "epoch": 0.25,
+      "sim_success": 0.0,
+      "wm_success": 0.05156249925494194,
+      "episode_agreement": 0.9921875
+    },
+    {
+      "policy": "styled/epoch1",
+      "data": "styled",
+      "epoch": 1,
+      "sim_success": 0.3515625,
+      "wm_success": 0.58203125,
+      "episode_agreement": 0.48046875
+    },
+    {
+      "policy": "styled/epoch20",
+      "data": "styled",
+      "epoch": 20,
+      "sim_success": 0.76171875,
+      "wm_success": 0.3695312440395355,
+      "episode_agreement": 0.38671875
+    },
+    {
+      "policy": "styled/epoch3",
+      "data": "styled",
+      "epoch": 3,
+      "sim_success": 0.5546875,
+      "wm_success": 0.5703125,
+      "episode_agreement": 0.48046875
+    }
+  ]
+}

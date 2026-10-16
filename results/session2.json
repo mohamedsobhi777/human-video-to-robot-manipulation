@@ -1,0 +1,848 @@
+{
+  "focal_px": 1717.1686101176135,
+  "workspace_shift_m": [
+    -0.0416,
+    -0.0387
+  ],
+  "clips": {
+    "IMG_5791": {
+      "target": "pear",
+      "bowl_xy": [
+        -0.116,
+        -0.034
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          0.025,
+          0.167
+        ],
+        "pear": [
+          -0.065,
+          -0.184
+        ],
+        "mandarin": [
+          0.078,
+          -0.149
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.97,
+        "pear": 0.992,
+        "mandarin": 0.971
+      }
+    },
+    "IMG_5792": {
+      "target": "pear",
+      "bowl_xy": [
+        -0.113,
+        -0.033
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          -0.073,
+          -0.22
+        ],
+        "pear": [
+          0.052,
+          0.096
+        ],
+        "mandarin": [
+          0.077,
+          -0.149
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.973,
+        "pear": 0.988,
+        "mandarin": 0.973
+      }
+    },
+    "IMG_5793": {
+      "target": "pear",
+      "bowl_xy": [
+        -0.113,
+        -0.032
+      ],
+      "in_bowl_at_start": [
+        "mandarin"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          -0.091,
+          -0.172
+        ],
+        "pear": [
+          0.044,
+          -0.234
+        ],
+        "mandarin": [
+          -0.119,
+          -0.008
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.963,
+        "pear": 0.982,
+        "mandarin": 0.948
+      }
+    },
+    "IMG_5794": {
+      "target": "pear",
+      "bowl_xy": [
+        -0.117,
+        -0.038
+      ],
+      "in_bowl_at_start": [
+        "persimmon"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          -0.097,
+          -0.006
+        ],
+        "pear": [
+          0.02,
+          0.094
+        ],
+        "mandarin": [
+          0.037,
+          -0.176
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.905,
+        "pear": 0.982,
+        "mandarin": 0.974
+      }
+    },
+    "IMG_5795": {
+      "target": "pear",
+      "bowl_xy": [
+        -0.125,
+        -0.193
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          0.036,
+          0.092
+        ],
+        "pear": [
+          0.047,
+          -0.15
+        ],
+        "mandarin": [
+          0.077,
+          -0.03
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.962,
+        "pear": 0.987,
+        "mandarin": 0.976
+      }
+    },
+    "IMG_5796": {
+      "target": "pear",
+      "bowl_xy": [
+        -0.136,
+        0.07
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          0.047,
+          -0.157
+        ],
+        "pear": [
+          -0.073,
+          -0.199
+        ],
+        "mandarin": [
+          0.064,
+          -0.032
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.956,
+        "pear": 0.993,
+        "mandarin": 0.981
+      }
+    },
+    "IMG_5797": {
+      "target": "pear",
+      "bowl_xy": [
+        -0.195,
+        -0.001
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          0.047,
+          -0.157
+        ],
+        "pear": [
+          -0.144,
+          -0.183
+        ],
+        "mandarin": [
+          0.064,
+          -0.032
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.956,
+        "pear": 0.992,
+        "mandarin": 0.979
+      }
+    },
+    "IMG_5798": {
+      "target": "pear",
+      "bowl_xy": [
+        -0.078,
+        0.024
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          0.048,
+          -0.157
+        ],
+        "pear": [
+          -0.11,
+          -0.227
+        ],
+        "mandarin": [
+          0.063,
+          -0.032
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.958,
+        "pear": 0.994,
+        "mandarin": 0.98
+      }
+    },
+    "IMG_5799": {
+      "target": "pear",
+      "bowl_xy": [
+        0.048,
+        0.139
+      ],
+      "in_bowl_at_start": [
+        "mandarin"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          0.047,
+          -0.157
+        ],
+        "pear": [
+          -0.121,
+          0.11
+        ],
+        "mandarin": [
+          0.037,
+          0.192
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.937,
+        "pear": 0.983,
+        "mandarin": 0.936
+      }
+    },
+    "IMG_5800": {
+      "target": "pear",
+      "bowl_xy": [
+        0.037,
+        0.081
+      ],
+      "in_bowl_at_start": [
+        "persimmon"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          0.051,
+          0.122
+        ],
+        "pear": [
+          -0.122,
+          -0.04
+        ],
+        "mandarin": [
+          0.011,
+          -0.074
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.867,
+        "pear": 0.984,
+        "mandarin": 0.965
+      }
+    },
+    "IMG_5801": {
+      "target": "persimmon",
+      "bowl_xy": [
+        -0.049,
+        0.059
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          -0.181,
+          0.056
+        ],
+        "pear": [
+          -0.135,
+          -0.157
+        ],
+        "mandarin": [
+          0.012,
+          -0.077
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.982,
+        "pear": 0.99,
+        "mandarin": 0.974
+      }
+    },
+    "IMG_5802": {
+      "target": "persimmon",
+      "bowl_xy": [
+        -0.063,
+        -0.056
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          0.015,
+          -0.261
+        ],
+        "pear": [
+          -0.117,
+          -0.253
+        ],
+        "mandarin": [
+          0.083,
+          -0.155
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.964,
+        "pear": 0.979,
+        "mandarin": 0.971
+      }
+    },
+    "IMG_5803": {
+      "target": "persimmon",
+      "bowl_xy": [
+        -0.06,
+        -0.055
+      ],
+      "in_bowl_at_start": [
+        "pear"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          0.058,
+          0.191
+        ],
+        "pear": [
+          -0.06,
+          -0.028
+        ],
+        "mandarin": [
+          0.003,
+          -0.241
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.94,
+        "pear": 0.969,
+        "mandarin": 0.973
+      }
+    },
+    "IMG_5804": {
+      "target": "persimmon",
+      "bowl_xy": [
+        -0.06,
+        -0.055
+      ],
+      "in_bowl_at_start": [
+        "mandarin"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          0.01,
+          0.193
+        ],
+        "pear": [
+          -0.18,
+          0.128
+        ],
+        "mandarin": [
+          -0.042,
+          -0.031
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.964,
+        "pear": 0.978,
+        "mandarin": 0.929
+      }
+    },
+    "IMG_5805": {
+      "target": "persimmon",
+      "bowl_xy": [
+        -0.06,
+        -0.055
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          0.001,
+          0.134
+        ],
+        "pear": [
+          0.014,
+          0.15
+        ],
+        "mandarin": [
+          0.111,
+          0.078
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.592,
+        "pear": 0.811,
+        "mandarin": 0.966
+      }
+    },
+    "IMG_5806": {
+      "target": "persimmon",
+      "bowl_xy": [
+        -0.059,
+        -0.062
+      ],
+      "in_bowl_at_start": [
+        "pear",
+        "mandarin"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          -0.201,
+          0.016
+        ],
+        "pear": [
+          -0.048,
+          -0.072
+        ],
+        "mandarin": [
+          -0.063,
+          -0.005
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.902,
+        "pear": 0.957,
+        "mandarin": 0.949
+      }
+    },
+    "IMG_5807": {
+      "target": "persimmon",
+      "bowl_xy": [
+        -0.007,
+        -0.168
+      ],
+      "in_bowl_at_start": [
+        "pear"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          -0.056,
+          0.142
+        ],
+        "pear": [
+          -0.003,
+          -0.171
+        ],
+        "mandarin": [
+          0.023,
+          0.053
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.975,
+        "pear": 0.968,
+        "mandarin": 0.979
+      }
+    },
+    "IMG_5808": {
+      "target": "persimmon",
+      "bowl_xy": [
+        -0.012,
+        -0.165
+      ],
+      "in_bowl_at_start": [
+        "mandarin"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          -0.157,
+          -0.022
+        ],
+        "pear": [
+          -0.052,
+          0.124
+        ],
+        "mandarin": [
+          0.009,
+          -0.163
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.943,
+        "pear": 0.983,
+        "mandarin": 0.941
+      }
+    },
+    "IMG_5809": {
+      "target": "persimmon",
+      "bowl_xy": [
+        0.045,
+        -0.203
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          -0.163,
+          0.047
+        ],
+        "pear": [
+          -0.053,
+          0.123
+        ],
+        "mandarin": [
+          -0.045,
+          -0.006
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.975,
+        "pear": 0.983,
+        "mandarin": 0.982
+      }
+    },
+    "IMG_5810": {
+      "target": "persimmon",
+      "bowl_xy": [
+        0.051,
+        -0.208
+      ],
+      "in_bowl_at_start": [
+        "pear"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          -0.142,
+          0.114
+        ],
+        "pear": [
+          0.046,
+          -0.196
+        ],
+        "mandarin": [
+          -0.002,
+          0.164
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.957,
+        "pear": 0.973,
+        "mandarin": 0.984
+      }
+    },
+    "IMG_5811": {
+      "target": "mandarin",
+      "bowl_xy": [
+        0.02,
+        -0.042
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          -0.078,
+          0.111
+        ],
+        "pear": [
+          -0.136,
+          -0.084
+        ],
+        "mandarin": [
+          -0.205,
+          0.1
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.974,
+        "pear": 0.981,
+        "mandarin": 0.952
+      }
+    },
+    "IMG_5812": {
+      "target": "mandarin",
+      "bowl_xy": [
+        0.028,
+        -0.049
+      ],
+      "in_bowl_at_start": [
+        "persimmon"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          0.041,
+          -0.019
+        ],
+        "pear": [
+          -0.136,
+          -0.084
+        ],
+        "mandarin": [
+          0.017,
+          0.204
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.932,
+        "pear": 0.982,
+        "mandarin": 0.971
+      }
+    },
+    "IMG_5813": {
+      "target": "mandarin",
+      "bowl_xy": [
+        0.036,
+        -0.076
+      ],
+      "in_bowl_at_start": [
+        "pear"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          -0.081,
+          0.148
+        ],
+        "pear": [
+          0.058,
+          -0.054
+        ],
+        "mandarin": [
+          -0.156,
+          -0.179
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.959,
+        "pear": 0.969,
+        "mandarin": 0.973
+      }
+    },
+    "IMG_5814": {
+      "target": "mandarin",
+      "bowl_xy": [
+        0.016,
+        -0.224
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          -0.081,
+          0.148
+        ],
+        "pear": [
+          -0.181,
+          0.044
+        ],
+        "mandarin": [
+          -0.216,
+          -0.107
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.97,
+        "pear": 0.95,
+        "mandarin": 0.979
+      }
+    },
+    "IMG_5815": {
+      "target": "mandarin",
+      "bowl_xy": [
+        0.046,
+        0.117
+      ],
+      "in_bowl_at_start": [
+        "pear"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          -0.013,
+          -0.176
+        ],
+        "pear": [
+          0.04,
+          0.127
+        ],
+        "mandarin": [
+          -0.116,
+          -0.119
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.947,
+        "pear": 0.958,
+        "mandarin": 0.978
+      }
+    },
+    "IMG_5816": {
+      "target": "mandarin",
+      "bowl_xy": [
+        -0.065,
+        0.119
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          -0.055,
+          -0.21
+        ],
+        "pear": [
+          -0.009,
+          -0.077
+        ],
+        "mandarin": [
+          -0.164,
+          -0.075
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.953,
+        "pear": 0.982,
+        "mandarin": 0.978
+      }
+    },
+    "IMG_5817": {
+      "target": "mandarin",
+      "bowl_xy": [
+        -0.168,
+        -0.055
+      ],
+      "in_bowl_at_start": [
+        "pear"
+      ],
+      "fruits_xy": {
+        "persimmon": [
+          0.021,
+          -0.127
+        ],
+        "pear": [
+          -0.148,
+          -0.04
+        ],
+        "mandarin": [
+          0.022,
+          0.165
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.924,
+        "pear": 0.962,
+        "mandarin": 0.962
+      }
+    },
+    "IMG_5818": {
+      "target": "mandarin",
+      "bowl_xy": [
+        -0.082,
+        0.092
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          0.021,
+          -0.127
+        ],
+        "pear": [
+          0.016,
+          -0.273
+        ],
+        "mandarin": [
+          -0.124,
+          -0.232
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.949,
+        "pear": 0.834,
+        "mandarin": 0.98
+      }
+    },
+    "IMG_5819": {
+      "target": "mandarin",
+      "bowl_xy": [
+        -0.083,
+        0.094
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          -0.148,
+          -0.069
+        ],
+        "pear": [
+          -0.095,
+          -0.255
+        ],
+        "mandarin": [
+          -0.051,
+          -0.177
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.967,
+        "pear": 0.954,
+        "mandarin": 0.982
+      }
+    },
+    "IMG_5820": {
+      "target": "mandarin",
+      "bowl_xy": [
+        -0.083,
+        0.092
+      ],
+      "in_bowl_at_start": [],
+      "fruits_xy": {
+        "persimmon": [
+          -0.148,
+          -0.069
+        ],
+        "pear": [
+          -0.095,
+          -0.255
+        ],
+        "mandarin": [
+          0.076,
+          0.209
+        ]
+      },
+      "naming_scores": {
+        "persimmon": 0.945,
+        "pear": 0.938,
+        "mandarin": 0.954
+      }
+    }
+  }
+}

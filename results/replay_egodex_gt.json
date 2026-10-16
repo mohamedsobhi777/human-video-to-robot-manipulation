@@ -1,0 +1,362 @@
+{
+  "source": "gt",
+  "replayed": 49,
+  "skipped": {},
+  "success_rate": 0.9183673469387755,
+  "grasp_rate": 0.9795918464660645,
+  "per_fruit": {
+    "persimmon": 0.9411764705882353,
+    "pear": 0.875,
+    "mandarin": 0.9375
+  },
+  "failures": {
+    "slipped during carry": 3,
+    "no grasp": 1
+  },
+  "episodes": {
+    "0": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 71,
+      "frames": 87
+    },
+    "1": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 27,
+      "release": 56,
+      "frames": 76
+    },
+    "2": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 49,
+      "release": 154,
+      "frames": 169
+    },
+    "3": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 21,
+      "release": 69,
+      "frames": 70
+    },
+    "4": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 52,
+      "release": 112,
+      "frames": 123
+    },
+    "5": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 22,
+      "release": 42,
+      "frames": 59
+    },
+    "6": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 28,
+      "frames": 66
+    },
+    "7": {
+      "success": false,
+      "reason": "slipped during carry",
+      "grasp": 27,
+      "release": 89,
+      "frames": 94
+    },
+    "8": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 28,
+      "release": 199,
+      "frames": 269
+    },
+    "9": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 23,
+      "release": 118,
+      "frames": 119
+    },
+    "10": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 30,
+      "release": 74,
+      "frames": 100
+    },
+    "11": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 61,
+      "release": 145,
+      "frames": 146
+    },
+    "12": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 69,
+      "release": 135,
+      "frames": 149
+    },
+    "13": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 69,
+      "frames": 83
+    },
+    "14": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 36,
+      "release": 223,
+      "frames": 234
+    },
+    "15": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 43,
+      "release": 113,
+      "frames": 121
+    },
+    "16": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 32,
+      "release": 54,
+      "frames": 58
+    },
+    "17": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 43,
+      "release": 71,
+      "frames": 79
+    },
+    "18": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 105,
+      "frames": 125
+    },
+    "19": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 60,
+      "release": 191,
+      "frames": 193
+    },
+    "20": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 35,
+      "release": 130,
+      "frames": 221
+    },
+    "21": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 30,
+      "release": 61,
+      "frames": 78
+    },
+    "22": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 16,
+      "release": 50,
+      "frames": 68
+    },
+    "23": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 75,
+      "frames": 93
+    },
+    "24": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 38,
+      "release": 92,
+      "frames": 108
+    },
+    "25": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 23,
+      "release": 46,
+      "frames": 57
+    },
+    "26": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 45,
+      "release": 107,
+      "frames": 115
+    },
+    "27": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 31,
+      "release": 85,
+      "frames": 86
+    },
+    "28": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 20,
+      "release": 51,
+      "frames": 58
+    },
+    "29": {
+      "success": false,
+      "reason": "no grasp",
+      "grasp": 28,
+      "release": 78,
+      "frames": 83
+    },
+    "30": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 37,
+      "release": 108,
+      "frames": 109
+    },
+    "31": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 88,
+      "release": 162,
+      "frames": 173
+    },
+    "32": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 42,
+      "release": 96,
+      "frames": 132
+    },
+    "33": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 25,
+      "release": 65,
+      "frames": 79
+    },
+    "34": {
+      "success": false,
+      "reason": "slipped during carry",
+      "grasp": 0,
+      "release": 94,
+      "frames": 106
+    },
+    "35": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 29,
+      "release": 170,
+      "frames": 171
+    },
+    "36": {
+      "success": false,
+      "reason": "slipped during carry",
+      "grasp": 16,
+      "release": 60,
+      "frames": 84
+    },
+    "37": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 32,
+      "release": 68,
+      "frames": 79
+    },
+    "38": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 25,
+      "release": 54,
+      "frames": 73
+    },
+    "39": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 30,
+      "release": 101,
+      "frames": 102
+    },
+    "40": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 49,
+      "release": 74,
+      "frames": 88
+    },
+    "41": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 39,
+      "release": 70,
+      "frames": 79
+    },
+    "42": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 40,
+      "release": 63,
+      "frames": 85
+    },
+    "43": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 29,
+      "release": 66,
+      "frames": 74
+    },
+    "44": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 59,
+      "frames": 66
+    },
+    "45": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 113,
+      "release": 178,
+      "frames": 190
+    },
+    "46": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 37,
+      "release": 65,
+      "frames": 77
+    },
+    "47": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 23,
+      "release": 85,
+      "frames": 86
+    },
+    "48": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 22,
+      "release": 44,
+      "frames": 59
+    }
+  },
+  "control_steps": 388
+}

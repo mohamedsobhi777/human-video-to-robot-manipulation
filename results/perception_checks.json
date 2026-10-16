@@ -1,0 +1,33 @@
+{
+  "calibration": {
+    "focal_true": 1450.0,
+    "focal_est": 1436.039105918309,
+    "reproj_px": 0.1500954855594699,
+    "corners": 24,
+    "table_point_err_mm": 4.429918637777066
+  },
+  "detection_sim": {
+    "per_name": {
+      "bowl": {
+        "found": 1.0,
+        "median_err_cm": 1.5700414951473145
+      },
+      "persimmon": {
+        "found": 1.0,
+        "median_err_cm": 12.459607610486326
+      },
+      "pear": {
+        "found": 1.0,
+        "median_err_cm": 11.47933440080804
+      },
+      "mandarin": {
+        "found": 1.0,
+        "median_err_cm": 6.684479933129355
+      }
+    },
+    "fruit_localisation_nearest_median_cm": 0.7771795036659775,
+    "fruit_naming_accuracy_text": 0.375,
+    "fruit_naming_accuracy_calib_prototypes": 1.0,
+    "note": "YCB stand-ins (peach for persimmon, low-poly pear) are not the real fruit; naming must be checked on the calib clip"
+  }
+}

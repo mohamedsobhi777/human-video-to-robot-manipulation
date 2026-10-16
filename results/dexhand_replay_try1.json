@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "lifted": 0.0,
+    "in_bowl": 0.0,
+    "success": 0.0,
+    "others_in_bowl": 0.0,
+    "bowl_upset": 0.0,
+    "episodes": 8
+  },
+  "episodes": [
+    {
+      "episode": 0,
+      "target": 0,
+      "lifted": false,
+      "max_lift": 0.001682177186012268,
+      "in_bowl": false,
+      "success": false,
+      "others_in_bowl": false,
+      "bowl_upset": false
+    },
+    {
+      "episode": 1,
+      "target": 1,
+      "lifted": false,
+      "max_lift": 0.001290101557970047,
+      "in_bowl": false,
+      "success": false,
+      "others_in_bowl": false,
+      "bowl_upset": false
+    },
+    {
+      "episode": 2,
+      "target": 2,
+      "lifted": false,
+      "max_lift": 2.2165477275848389E-7,
+      "in_bowl": false,
+      "success": false,
+      "others_in_bowl": false,
+      "bowl_upset": false
+    },
+    {
+      "episode": 3,
+      "target": 0,
+      "lifted": false,
+      "max_lift": 0.00003787502646446228,
+      "in_bowl": false,
+      "success": false,
+      "others_in_bowl": false,
+      "bowl_upset": false
+    },
+    {
+      "episode": 4,
+      "target": 1,
+      "lifted": false,
+      "max_lift": 0.0001271851360797882,
+      "in_bowl": false,
+      "success": false,
+      "others_in_bowl": false,
+      "bowl_upset": false
+    },
+    {
+      "episode": 5,
+      "target": 2,
+      "lifted": false,
+      "max_lift": 0.0002465769648551941,
+      "in_bowl": false,
+      "success": false,
+      "others_in_bowl": false,
+      "bowl_upset": false
+    },
+    {
+      "episode": 6,
+      "target": 0,
+      "lifted": false,
+      "max_lift": 0.00044156424701213837,
+      "in_bowl": false,
+      "success": false,
+      "others_in_bowl": false,
+      "bowl_upset": false
+    },
+    {
+      "episode": 7,
+      "target": 1,
+      "lifted": false,
+      "max_lift": 0.0031718909740448,
+      "in_bowl": false,
+      "success": false,
+      "others_in_bowl": false,
+      "bowl_upset": false
+    }
+  ]
+}

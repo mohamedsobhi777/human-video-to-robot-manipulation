@@ -1,0 +1,333 @@
+{
+  "source": "wilor",
+  "replayed": 44,
+  "skipped": {
+    "2": "hand found in 49% of frames",
+    "4": "hand found in 26% of frames",
+    "6": "hand found in 45% of frames",
+    "18": "hand found in 46% of frames",
+    "26": "hand found in 31% of frames"
+  },
+  "success_rate": 0.8636363636363636,
+  "grasp_rate": 0.9772727489471436,
+  "per_fruit": {
+    "persimmon": 0.8,
+    "pear": 0.8666666666666667,
+    "mandarin": 0.9285714285714286
+  },
+  "failures": {
+    "no grasp": 1,
+    "slipped during carry": 5
+  },
+  "episodes": {
+    "0": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 30,
+      "release": 86,
+      "frames": 87
+    },
+    "1": {
+      "success": false,
+      "reason": "slipped during carry",
+      "grasp": 26,
+      "release": 75,
+      "frames": 76
+    },
+    "3": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 19,
+      "release": 68,
+      "frames": 70
+    },
+    "5": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 19,
+      "release": 58,
+      "frames": 59
+    },
+    "7": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 55,
+      "release": 87,
+      "frames": 94
+    },
+    "8": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 26,
+      "release": 172,
+      "frames": 269
+    },
+    "9": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 18,
+      "release": 114,
+      "frames": 119
+    },
+    "10": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 25,
+      "release": 99,
+      "frames": 100
+    },
+    "11": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 57,
+      "release": 141,
+      "frames": 146
+    },
+    "12": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 67,
+      "release": 145,
+      "frames": 149
+    },
+    "13": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 28,
+      "release": 71,
+      "frames": 83
+    },
+    "14": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 4,
+      "release": 181,
+      "frames": 234
+    },
+    "15": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 71,
+      "release": 110,
+      "frames": 121
+    },
+    "16": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 28,
+      "release": 53,
+      "frames": 58
+    },
+    "17": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 70,
+      "frames": 79
+    },
+    "19": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 59,
+      "release": 170,
+      "frames": 193
+    },
+    "20": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 36,
+      "release": 116,
+      "frames": 221
+    },
+    "21": {
+      "success": false,
+      "reason": "slipped during carry",
+      "grasp": 28,
+      "release": 65,
+      "frames": 78
+    },
+    "22": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 16,
+      "release": 50,
+      "frames": 68
+    },
+    "23": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 30,
+      "release": 91,
+      "frames": 93
+    },
+    "24": {
+      "success": false,
+      "reason": "slipped during carry",
+      "grasp": 0,
+      "release": 92,
+      "frames": 108
+    },
+    "25": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 20,
+      "release": 56,
+      "frames": 57
+    },
+    "27": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 85,
+      "frames": 86
+    },
+    "28": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 18,
+      "release": 50,
+      "frames": 58
+    },
+    "29": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 27,
+      "release": 81,
+      "frames": 83
+    },
+    "30": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 36,
+      "release": 108,
+      "frames": 109
+    },
+    "31": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 47,
+      "release": 164,
+      "frames": 173
+    },
+    "32": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 35,
+      "release": 90,
+      "frames": 132
+    },
+    "33": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 22,
+      "release": 66,
+      "frames": 79
+    },
+    "34": {
+      "success": false,
+      "reason": "slipped during carry",
+      "grasp": 0,
+      "release": 105,
+      "frames": 106
+    },
+    "35": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 123,
+      "frames": 171
+    },
+    "36": {
+      "success": false,
+      "reason": "slipped during carry",
+      "grasp": 13,
+      "release": 79,
+      "frames": 84
+    },
+    "37": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 27,
+      "release": 64,
+      "frames": 79
+    },
+    "38": {
+      "success": false,
+      "reason": "no grasp",
+      "grasp": 23,
+      "release": 52,
+      "frames": 73
+    },
+    "39": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 91,
+      "frames": 102
+    },
+    "40": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 74,
+      "frames": 88
+    },
+    "41": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 41,
+      "release": 68,
+      "frames": 79
+    },
+    "42": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 39,
+      "release": 61,
+      "frames": 85
+    },
+    "43": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 29,
+      "release": 68,
+      "frames": 74
+    },
+    "44": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 59,
+      "frames": 66
+    },
+    "45": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 33,
+      "release": 189,
+      "frames": 190
+    },
+    "46": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 0,
+      "release": 66,
+      "frames": 77
+    },
+    "47": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 19,
+      "release": 78,
+      "frames": 86
+    },
+    "48": {
+      "success": true,
+      "reason": "ok",
+      "grasp": 20,
+      "release": 41,
+      "frames": 59
+    }
+  },
+  "control_steps": 405
+}

@@ -1,0 +1,12 @@
+{
+  "episodes": 128,
+  "success": 0.2734375,
+  "per_fruit": {
+    "persimmon": 0.35135135135135137,
+    "pear": 0.2631578947368421,
+    "mandarin": 0.22641509433962265
+  },
+  "wrong_fruit_in_bowl": 0.5078125,
+  "demos": "data/fruitbowl/demos_styled",
+  "steps": 30000
+}

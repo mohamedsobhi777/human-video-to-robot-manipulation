@@ -1,0 +1,771 @@
+{
+  "summary": {
+    "episodes": 150,
+    "success": 0.8533333333333334,
+    "per_fruit": {
+      "persimmon": 0.9,
+      "pear": 0.68,
+      "mandarin": 0.98
+    },
+    "wrong_fruit_in_bowl": 0.0,
+    "demos": "data/fruitbowl/demos_expert",
+    "steps": 0,
+    "train_seed": 0,
+    "seed": 40000,
+    "layouts_file": "results/crowded_layouts.json",
+    "paraphrase": false,
+    "load": "data/fruitbowl/film_expert.pt"
+  },
+  "episodes": [
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "persimmon",
+      "success": false,
+      "others_in_bowl": false
+    },
+    {
+      "target": "pear",
+      "success": true,
+      "others_in_bowl": false
+    },
+    {
+      "target": "mandarin",
+      "success": true,
+      "others_in_bowl": false
+    }
+  ]
+}

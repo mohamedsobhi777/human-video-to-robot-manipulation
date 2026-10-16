@@ -1,0 +1,39 @@
+{
+  "episodes": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48
+  ],
+  "results": {
+    "mediapipe": {
+      "detection": 0.653564290473018,
+      "pinch_err_cm": 4.924570073103819,
+      "pinch_err_p90_cm": 10.272546414930206,
+      "pinch_err_offset_removed_cm": 4.527142841133915,
+      "depth_err_cm": 3.2876227169690964,
+      "aperture_err_cm": 1.2263732788906987,
+      "frames": 1501,
+      "ms_per_frame": 13.401065962382907
+    },
+    "wilor": {
+      "detection": 0.7275149900066622,
+      "pinch_err_cm": 4.786988085393756,
+      "pinch_err_p90_cm": 8.905664028759222,
+      "pinch_err_offset_removed_cm": 3.4117617700009246,
+      "depth_err_cm": 3.3409474931811456,
+      "aperture_err_cm": 0.8394159219406543,
+      "frames": 1501,
+      "ms_per_frame": 60.37773504644771
+    }
+  }
+}

@@ -17,7 +17,7 @@ python -m unittest discover -s tests -v
 
 The smoke test renders the task, verifies that reset layouts are unsolved, drops each target into its bowl and asserts three successes. It does not test manipulation skill. For the optional simulator throughput probe, add `--throughput-envs 512`. On machines with a ROS installation, unset an inherited ROS `PYTHONPATH` if it interferes with this environment. FFmpeg/FFprobe must be available on `PATH` for video processing.
 
-## 2. Download the trained models and processed human plans
+## 2. Download the models, human plans and original recordings
 
 The [submission-v1 release](https://github.com/mohamedsobhi777/language-conditioned-manipulation-from-egocentric-human-video/releases/tag/submission-v1) contains:
 
@@ -26,6 +26,7 @@ The [submission-v1 release](https://github.com/mohamedsobhi777/language-conditio
 | `film_session2.pt` | FiLM policy trained on my 24 training clips' multiplied demonstrations; normalization buffers included |
 | `worldmodel_session2.pt` | World-model ensemble trained on the same training styles with perturbations |
 | `session2-plans.pkl` | All 30 processed hand/object plans, with clip identifiers; no raw frames or audio |
+| `session2-recordings.zip` | All 30 original `.MOV` recordings, including original audio, plus the manual `targets.json` labels (205 MB) |
 
 ```bash
 mkdir -p data/downloads data/fruitbowl/wm_mine data/session2/processed
@@ -40,6 +41,14 @@ cp results/session2_heldout_layouts.json data/session2/processed/heldout_layouts
 ```
 
 Alternatively download those assets in a browser. Only unpickle plans from a trusted source: Python pickle can execute code. Model loading uses PyTorch's `weights_only=True`. SHA-256 values are in [`checkpoints.sha256`](checkpoints.sha256).
+
+To inspect or reprocess the original recordings, extract the archive into the session directory:
+
+```bash
+unzip data/downloads/session2-recordings.zip -d data/session2
+```
+
+This creates `data/session2/raw/IMG_5791.MOV` through `IMG_5820.MOV` and `data/session2/targets.json`. The files are byte-for-byte originals; the 24-training/six-held-out split remains unchanged.
 
 ## 3. Evaluate the own-data policy
 
@@ -121,12 +130,19 @@ The fidelity command uses the **released** model (`model.pt`); change `--model` 
 
 The trusted horizon is an empirical **median positional-error threshold**, not a guarantee for every rollout or a certificate that model-based control is safe. The full-episode score and rolling-origin fidelity score have different evaluation sets and must not be conflated.
 
-## 7. Process new phone recordings (optional)
+## 7. Process the original or new phone recordings (optional)
 
 The submitted own-data pipeline is `scripts/process_clips.py`: `<session>/raw/*.MOV` plus `<session>/targets.json` mapping clip stems to `persimmon`, `pear` or `mandarin`. A fixed board is visible in each clip. The target labels are manual; no audio is required.
 
 ```bash
 python -m pip install -r requirements-tracking.txt
+python scripts/process_clips.py data/session2 \
+  --heldout IMG_5796 IMG_5798 IMG_5801 IMG_5809 IMG_5816 IMG_5819
+```
+
+The command above reprocesses the released recordings using the original split. For a new session, provide its own recordings, labels and held-out identifiers:
+
+```bash
 python scripts/process_clips.py data/my-session \
   --heldout heldout_clip_1 heldout_clip_2
 ```

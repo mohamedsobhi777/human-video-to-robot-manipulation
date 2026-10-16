@@ -8,6 +8,8 @@ I recorded 30 clips of a persimmon, pear or mandarin being placed into a bowl. A
 
 [Watch the three-robot replay](docs/media/one-clip-three-robots.mp4) · [Watch the policy trained on my recordings](docs/media/own-data-policy.mp4) · [Slides: PDF](docs/presentation.pdf) / [PowerPoint with videos](docs/presentation.pptx) · [Reproduction guide](docs/reproduction.md)
 
+[Download all 30 original recordings and target labels (205 MB ZIP)](https://github.com/mohamedsobhi777/language-conditioned-manipulation-from-egocentric-human-video/releases/download/submission-v1/session2-recordings.zip). The archive contains `raw/IMG_5791.MOV` through `raw/IMG_5820.MOV` and `targets.json`, with the original video and audio preserved.
+
 ## Results on my recordings
 
 The policy is trained on **771 successful simulated demonstrations derived from 24 of my clips**, with six clips reserved for evaluation. Each table entry is 150 simulator episodes; the six held-out layouts are repeated with reset variation, not 150 independently recorded scenes.
@@ -73,7 +75,7 @@ python scripts/image_bc.py --film --load data/fruitbowl/film_session2.pt \
   --episodes 3 --seed 10000 --out artifacts/policy-smoke.json
 ```
 
-For the 150-episode evaluations, demonstration generation, own-video processing and world-model training, use [`docs/reproduction.md`](docs/reproduction.md). Run commands from the repository root. Raw recording sessions and third-party model/dataset assets are not bundled; the release includes my processed hand plans and trained FiLM/world-model checkpoints.
+For the 150-episode evaluations, demonstration generation, own-video processing and world-model training, use [`docs/reproduction.md`](docs/reproduction.md). Run commands from the repository root. The release includes all 30 original recordings with target labels, my processed hand plans and trained FiLM/world-model checkpoints. Large recordings are release assets rather than Git-tracked files; third-party model/dataset assets are downloaded separately.
 
 ## Read the code
 

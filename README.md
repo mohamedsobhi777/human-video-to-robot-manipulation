@@ -1,4 +1,6 @@
-# Language-conditioned manipulation from egocentric human video
+# Human Video to Robot Manipulation
+
+*Object-relative retargeting and target-conditioned policy learning in simulation.*
 
 **My phone recordings supply the approach, grasp orientation, carry and release of a simulated robot—not just the name of the object to move.**
 
@@ -8,7 +10,7 @@ I recorded 30 clips of a persimmon, pear or mandarin being placed into a bowl. A
 
 [Watch the three-robot replay](docs/media/one-clip-three-robots.mp4) · [Watch the policy trained on my recordings](docs/media/own-data-policy.mp4) · [Slides: PDF](docs/presentation.pdf) / [PowerPoint with videos](docs/presentation.pptx) · [Reproduction guide](docs/reproduction.md)
 
-[Download all 30 original recordings and target labels (205 MB ZIP)](https://github.com/mohamedsobhi777/language-conditioned-manipulation-from-egocentric-human-video/releases/download/submission-v1/session2-recordings.zip). The archive contains `raw/IMG_5791.MOV` through `raw/IMG_5820.MOV` and `targets.json`, with the original video and audio preserved.
+[Download all 30 original recordings and target labels (205 MB ZIP)](https://github.com/mohamedsobhi777/human-video-to-robot-manipulation/releases/download/submission-v1/session2-recordings.zip). The archive contains `raw/IMG_5791.MOV` through `raw/IMG_5820.MOV` and `targets.json`, with the original video and audio preserved.
 
 ## Results on my recordings
 
@@ -65,11 +67,11 @@ python -m mani_skill.utils.download_asset ycb -y
 python scripts/check_env.py artifacts/smoke
 ```
 
-Download the trained policy from the [submission release](https://github.com/mohamedsobhi777/language-conditioned-manipulation-from-egocentric-human-video/releases/tag/submission-v1), then evaluate without needing the training videos:
+Download the trained policy from the [submission release](https://github.com/mohamedsobhi777/human-video-to-robot-manipulation/releases/tag/submission-v1), then evaluate without needing the training videos:
 
 ```bash
 mkdir -p data/fruitbowl
-gh release download submission-v1 --repo mohamedsobhi777/language-conditioned-manipulation-from-egocentric-human-video \
+gh release download submission-v1 --repo mohamedsobhi777/human-video-to-robot-manipulation \
   --pattern film_session2.pt --dir data/fruitbowl
 python scripts/image_bc.py --film --load data/fruitbowl/film_session2.pt \
   --episodes 3 --seed 10000 --out artifacts/policy-smoke.json

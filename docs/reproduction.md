@@ -19,7 +19,7 @@ The smoke test renders the task, verifies that reset layouts are unsolved, drops
 
 ## 2. Download the models, human plans and original recordings
 
-The [submission-v1 release](https://github.com/mohamedsobhi777/language-conditioned-manipulation-from-egocentric-human-video/releases/tag/submission-v1) contains:
+The [submission-v1 release](https://github.com/mohamedsobhi777/human-video-to-robot-manipulation/releases/tag/submission-v1) contains:
 
 | Asset | Contents |
 |---|---|
@@ -31,7 +31,7 @@ The [submission-v1 release](https://github.com/mohamedsobhi777/language-conditio
 ```bash
 mkdir -p data/downloads data/fruitbowl/wm_mine data/session2/processed
 gh release download submission-v1 \
-  --repo mohamedsobhi777/language-conditioned-manipulation-from-egocentric-human-video \
+  --repo mohamedsobhi777/human-video-to-robot-manipulation \
   --dir data/downloads
 (cd data/downloads && sha256sum -c ../../docs/checkpoints.sha256)
 cp data/downloads/film_session2.pt data/fruitbowl/
